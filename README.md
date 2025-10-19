@@ -33,7 +33,13 @@
 
 ## 5. 关键信息与资源 (Key Info & Resources)
 
+- 使用objdump查看汇编代码
+  - ` $ objdump -D libucapi.so &> dump `
+
+- 参考资料：https://bbs.eetop.cn/thread-979305-1-1.html
+
 ---
 
 ## 6. 使用说明与注意事项 (Usage & Notes)
+ - 2024后的版本patch后可能会卡死，建议重新lmgrd
 
