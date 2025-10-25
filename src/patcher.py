@@ -62,6 +62,11 @@ PATCH_CONFIG: List[Dict[str, Any]] = [
         "target": b'\x55\x48\x89\xe5\x48\x81\xec\x80\x01\x00\x00',
         "replacement": b'\x31\xc0\xc3\xe5\x48\x81\xec\x80\x01\x00\x00',
     },
+    {
+        "description": "X-2025.06-SP1",
+        "target": b'\x55\x48\x89\xe5\x48\x81\xec\x80\x01\x00\x00',
+        "replacement": b'\x31\xc0\xc3\xe5\x48\x81\xec\x80\x01\x00\x00',
+    },
     # --- 如果有针对其他版本的补丁，可以在这里继续添加 ---
 ]
 
